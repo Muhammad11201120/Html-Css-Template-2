@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- google fonts -->
     <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
-            rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <!-- fontawesome -->
     <link rel="stylesheet" href="css/all.min.css">
     <!-- normalize library -->
@@ -21,454 +21,461 @@
 </head>
 
 <body>
-<!-- Start Heder -->
-<header>
-    <div class="container">
-        <h3>MO</h3>
-        <nav>
-            <i class="fas fa-bars tuggle-menue"></i>
+    <!-- Start Heder -->
+    <header>
+        <div class="container">
+            <h3>MO</h3>
+            <nav>
+                <i id="header-icon" class="fas fa-bars tuggle-menue"></i>
+                <ul id="header-ul">
+                    <li><a class="active header-li" href="">Home</a></li>
+                    <li><a href="#" class="header-li">Services</a></li>
+                    <li><a href="#" class="header-li">Portfolio</a></li>
+                    <li><a href="#" class="header-li">About</a></li>
+                    <li><a href="#" class="header-li">Pricing</a></li>
+                    <li><a href="#" class="header-li">Contact</a></li>
+                </ul>
+                <div class="form">
+                    <i class="fa fas fa-search"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing">
+        <div class="overlay"></div>
+        <div class="text">
+            <div class="content">
+                <h2>Hello <br> We Are Kasper We Make Art.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quam voluptas suscipit sequi
+                    molestias amet perspiciatis aliquam, consectetur neque non vel beatae repellendus expedita cum
+                    reprehenderit necessitatibus architecto, quaerat quis!</p>
+            </div>
+        </div>
+        <i class="fas fa-angle-left change-background fa2x"></i>
+        <i class="fas fa-angle-right change-background fa2x"></i>
+        <ul class="bullets">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- End Landing -->
+    <!-- Strst Services -->
+    <div class="services">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Services</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati consectetur ut iste cum
+                    perspiciatis,
+                    explicabo omnis laborum dolore officiis tempora cupiditate, beatae praesentium soluta dolorum?
+                    Molestias
+                    fugiat magni sit officiis.</p>
+            </div>
+            <div class="services-container">
+                <div class="serve-box">
+                    <i class="fas fa-desktop fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugit rerum corporis cumque
+                            omnis! Mollitia pariatur natus obcaecati sunt voluptatibus maxime aut adipisci ratione? Sit
+                            consequatur impedit porro velit quibusdam.</p>
+                    </div>
+                </div>
+                <div class="serve-box">
+                    <i class="fas fa-cog fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugit rerum corporis cumque
+                            omnis! Mollitia pariatur natus obcaecati sunt voluptatibus maxime aut adipisci ratione? Sit
+                            consequatur impedit porro velit quibusdam.</p>
+                    </div>
+                </div>
+                <div class="serve-box">
+                    <i class="fas fa-pencil-ruler fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugit rerum corporis cumque
+                            omnis! Mollitia pariatur natus obcaecati sunt voluptatibus maxime aut adipisci ratione? Sit
+                            consequatur impedit porro velit quibusdam.</p>
+                    </div>
+                </div>
+                <div class="serve-box">
+                    <i class="fas fa-camera fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugit rerum corporis cumque
+                            omnis! Mollitia pariatur natus obcaecati sunt voluptatibus maxime aut adipisci ratione? Sit
+                            consequatur impedit porro velit quibusdam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Design-->
+    <div class="design">
+        <div class="image">
+            <img src="images/mobile.png" alt="mobile">
+        </div>
+        <div class="text">
+            <h2>Our Design Comes With ...</h2>
             <ul>
-                <li><a class="active" href="">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="form">
-                <i class="fa fas fa-search"></i>
-            </div>
-        </nav>
-    </div>
-</header>
-<!-- End Header -->
-<!-- Start Landing -->
-<div class="landing">
-    <div class="overlay"></div>
-    <div class="text">
-        <div class="content">
-            <h2>Hello <br> We Are Kasper We Make Art.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quam voluptas suscipit sequi
-                molestias amet perspiciatis aliquam, consectetur neque non vel beatae repellendus expedita cum
-                reprehenderit necessitatibus architecto, quaerat quis!</p>
-        </div>
-    </div>
-    <i class="fas fa-angle-left change-background fa2x"></i>
-    <i class="fas fa-angle-right change-background fa2x"></i>
-    <ul class="bullets">
-        <li></li>
-        <li class="active"></li>
-        <li></li>
-    </ul>
-</div>
-<!-- End Landing -->
-<!-- Strst Services -->
-<div class="services">
-    <div class="container">
-        <div class="main-heading">
-            <h2>Services</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati consectetur ut iste cum
-                perspiciatis,
-                explicabo omnis laborum dolore officiis tempora cupiditate, beatae praesentium soluta dolorum?
-                Molestias
-                fugiat magni sit officiis.</p>
-        </div>
-        <div class="services-container">
-            <div class="serve-box">
-                <i class="fas fa-desktop fa-3x"></i>
-                <div class="text">
-                    <h3>Vorem amet</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugit rerum corporis cumque
-                        omnis! Mollitia pariatur natus obcaecati sunt voluptatibus maxime aut adipisci ratione? Sit
-                        consequatur impedit porro velit quibusdam.</p>
-                </div>
-            </div>
-            <div class="serve-box">
-                <i class="fas fa-cog fa-3x"></i>
-                <div class="text">
-                    <h3>Vorem amet</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugit rerum corporis cumque
-                        omnis! Mollitia pariatur natus obcaecati sunt voluptatibus maxime aut adipisci ratione? Sit
-                        consequatur impedit porro velit quibusdam.</p>
-                </div>
-            </div>
-            <div class="serve-box">
-                <i class="fas fa-pencil-ruler fa-3x"></i>
-                <div class="text">
-                    <h3>Vorem amet</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugit rerum corporis cumque
-                        omnis! Mollitia pariatur natus obcaecati sunt voluptatibus maxime aut adipisci ratione? Sit
-                        consequatur impedit porro velit quibusdam.</p>
-                </div>
-            </div>
-            <div class="serve-box">
-                <i class="fas fa-camera fa-3x"></i>
-                <div class="text">
-                    <h3>Vorem amet</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugit rerum corporis cumque
-                        omnis! Mollitia pariatur natus obcaecati sunt voluptatibus maxime aut adipisci ratione? Sit
-                        consequatur impedit porro velit quibusdam.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Services -->
-<!-- Start Design-->
-<div class="design">
-    <div class="image">
-        <img src="images/mobile.png" alt="mobile">
-    </div>
-    <div class="text">
-        <h2>Our Design Comes With ...</h2>
-        <ul>
-            <li>Responsive Design</li>
-            <li>Modern And Clean Design</li>
-            <li>Clean Code</li>
-            <li>Browser Friendly</li>
-        </ul>
-    </div>
-</div>
-<!--End Design -->
-<!-- Start Portfolio -->
-<div class="portfolio">
-    <div class="container">
-        <div class="main-heading">
-            <h2>Portfolio</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laborum, saepe enim omnis
-                inventore molestiae exercitationem aperiam odio vero perferendis facere a quam esse error eaque
-                quasi iste temporibus est.</p>
-        </div>
-        <ul class="shuffel">
-            <li class="active">All</li>
-            <li>App</li>
-            <li>Photo</li>
-            <li>Web</li>
-            <li>Print</li>
-        </ul>
-    </div>
-    <div class="images-container">
-        <div class="box">
-            <img src="images/shuffle-01.jpg" alt="">
-            <div class="caption">
-                <h4>Awesome Image</h4>
-                <p>Photography</p>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/shuffle-02.jpg" alt="">
-            <div class="caption">
-                <h4>Awesome Image</h4>
-                <p>Photography</p>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/shuffle-03.jpg" alt="">
-            <div class="caption">
-                <h4>Awesome Image</h4>
-                <p>Photography</p>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/shuffle-04.jpg" alt="">
-            <div class="caption">
-                <h4>Awesome Image</h4>
-                <p>Photography</p>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/shuffle-05.jpg" alt="">
-            <div class="caption">
-                <h4>Awesome Image</h4>
-                <p>Photography</p>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/shuffle-06.jpg" alt="">
-            <div class="caption">
-                <h4>Awesome Image</h4>
-                <p>Photography</p>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/shuffle-07.jpg" alt="">
-            <div class="caption">
-                <h4>Awesome Image</h4>
-                <p>Photography</p>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/shuffle-08.jpg" alt="">
-            <div class="caption">
-                <h4>Awesome Image</h4>
-                <p>Photography</p>
-            </div>
-        </div>
-    </div>
-    <a href="#" class="more">More</a>
-</div>
-<!-- End Portfolio -->
-<!-- Start Video -->
-<div class="video">
-    <video src="images/awesome-video.mp4" type="video/mp4" autoplay></video>
-    <div class="text">
-        <h2>Super Awesome Video Here</h2>
-        <p>It is All You Need</p>
-        <button>See More</button>
-    </div>
-</div>
-<!-- End Video -->
-<!-- Start About  -->
-<div class="about">
-    <div class="container">
-        <div class="main-heading">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium id quae aut inventore vero
-                sapiente
-                neque amet laboriosam in aspernatur quia nostrum eius labore possimus, alias incidunt sit accusamus
-                iusto?</p>
-        </div>
-        <img src="images/about.png" alt="About">
-    </div>
-</div>
-<!-- End About  -->
-<!-- Start Ststus  -->
-<div class="status">
-    <div class="container">
-        <div class="box">
-            <i class="fa fa-mug-hot"></i>
-            <div class="number">1.236</div>
-            <p>Coffe Drinks</p>
-        </div>
-        <div class="box">
-            <i class="fa fa-folder"></i>
-            <div class="number">256</div>
-            <p>Completed Projects</p>
-        </div>
-        <div class="box">
-            <i class="fa fa-envelope"></i>
-            <div class="number">1.743</div>
-            <p>Mail Sent</p>
-        </div>
-        <div class="box">
-            <i class="fa fa-trophy"></i>
-            <div class="number">17</div>
-            <p>Awards Receved</p>
-        </div>
-    </div>
-</div>
-<!-- End Status  -->
-<!-- Start Skills -->
-<div class="our-skills">
-    <div class="container">
-        <div class="testimonials">
-            <h3>Testimonials</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, culpa voluptate. Sed, ducimus quis
-                iusto hic neque, architecto mollitia molestias sunt nisi eum, accusantium quasi! Magnam quasi
-                ratione officiis explicabo.</p>
-            <div class="content">
-                <img src="images/skills-01.jpg" alt="">
-                <div class="text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ea, quae dolor laborum
-                    blanditiis explicabo dolorum incidunt deserunt veniam cumque vel aspernatur et ipsa? Illum
-                    cumque consequuntur cupiditate tempora illo.
-                    <p>John Doe, CEO</p>
-                </div>
-            </div>
-            <div class="content">
-                <img src="images/skills-02.jpg" alt="">
-                <div class="text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ea, quae dolor laborum
-                    blanditiis explicabo dolorum incidunt deserunt veniam cumque vel aspernatur et ipsa? Illum
-                    cumque consequuntur cupiditate tempora illo.
-                    <p>John Doe, CEO</p>
-                </div>
-            </div>
-            <ul class="bullets">
-                <li></li>
-                <li class="active"></li>
-                <li></li>
+                <li>Responsive Design</li>
+                <li>Modern And Clean Design</li>
+                <li>Clean Code</li>
+                <li>Browser Friendly</li>
             </ul>
         </div>
-        <div class="skills">
-            <h3>Skills</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi debitis, enim sint voluptatibus ab
-                nesciunt veritatis ut laudantium nam expedita, quas iste qui doloribus? Fuga pariatur iusto nesciunt
-                incidunt suscipit?</p>
-            <div class="prog-holder">
-                <h4>Adobe</h4>
-                <div class="prog">
-                    <span style="width: 90%" data-progress="90%"></span>
+    </div>
+    <!--End Design -->
+    <!-- Start Portfolio -->
+    <div class="portfolio">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Portfolio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laborum, saepe enim omnis
+                    inventore molestiae exercitationem aperiam odio vero perferendis facere a quam esse error eaque
+                    quasi iste temporibus est.</p>
+            </div>
+            <ul class="shuffel">
+                <li class="active">All</li>
+                <li>App</li>
+                <li>Photo</li>
+                <li>Web</li>
+                <li>Print</li>
+            </ul>
+        </div>
+        <div class="images-container">
+            <div class="box">
+                <img src="images/shuffle-01.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
                 </div>
             </div>
-            <div class="prog-holder">
-                <h4>Html &amp; Css</h4>
-                <div class="prog">
-                    <span style="width: 80%" data-progress="80%"></span>
+            <div class="box">
+                <img src="images/shuffle-02.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
                 </div>
             </div>
-            <div class="prog-holder">
-                <h4>JavaScript</h4>
-                <div class="prog">
-                    <span style="width: 85%" data-progress="85%"></span>
+            <div class="box">
+                <img src="images/shuffle-03.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
                 </div>
             </div>
-            <div class="prog-holder">
-                <h4>Php</h4>
-                <div class="prog">
-                    <span style="width: 90%" data-progress="90%"></span>
+            <div class="box">
+                <img src="images/shuffle-04.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-05.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-06.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-07.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-08.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="more">More</a>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start Video -->
+    <div class="video">
+        <video src="images/awesome-video.mp4" type="video/mp4" autoplay></video>
+        <div class="text">
+            <h2>Super Awesome Video Here</h2>
+            <p>It is All You Need</p>
+            <button>See More</button>
+        </div>
+    </div>
+    <!-- End Video -->
+    <!-- Start About  -->
+    <div class="about">
+        <div class="container">
+            <div class="main-heading">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium id quae aut inventore vero
+                    sapiente
+                    neque amet laboriosam in aspernatur quia nostrum eius labore possimus, alias incidunt sit accusamus
+                    iusto?</p>
+            </div>
+            <img src="images/about.png" alt="About">
+        </div>
+    </div>
+    <!-- End About  -->
+    <!-- Start Ststus  -->
+    <div class="status">
+        <div class="container">
+            <div class="box">
+                <i class="fa fa-mug-hot"></i>
+                <div class="number">1.236</div>
+                <p>Coffe Drinks</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-folder"></i>
+                <div class="number">256</div>
+                <p>Completed Projects</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-envelope"></i>
+                <div class="number">1.743</div>
+                <p>Mail Sent</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-trophy"></i>
+                <div class="number">17</div>
+                <p>Awards Receved</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Status  -->
+    <!-- Start Skills -->
+    <div class="our-skills">
+        <div class="container">
+            <div class="testimonials">
+                <h3>Testimonials</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, culpa voluptate. Sed, ducimus quis
+                    iusto hic neque, architecto mollitia molestias sunt nisi eum, accusantium quasi! Magnam quasi
+                    ratione officiis explicabo.</p>
+                <div class="content">
+                    <img src="images/skills-01.jpg" alt="">
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ea, quae dolor laborum
+                        blanditiis explicabo dolorum incidunt deserunt veniam cumque vel aspernatur et ipsa? Illum
+                        cumque consequuntur cupiditate tempora illo.
+                        <p>John Doe, CEO</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/skills-02.jpg" alt="">
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ea, quae dolor laborum
+                        blanditiis explicabo dolorum incidunt deserunt veniam cumque vel aspernatur et ipsa? Illum
+                        cumque consequuntur cupiditate tempora illo.
+                        <p>John Doe, CEO</p>
+                    </div>
+                </div>
+                <ul class="bullets">
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi debitis, enim sint voluptatibus ab
+                    nesciunt veritatis ut laudantium nam expedita, quas iste qui doloribus? Fuga pariatur iusto nesciunt
+                    incidunt suscipit?</p>
+                <div class="prog-holder">
+                    <h4>Adobe</h4>
+                    <div class="prog">
+                        <span style="width: 90%" data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>Html &amp; Css</h4>
+                    <div class="prog">
+                        <span style="width: 80%" data-progress="80%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>JavaScript</h4>
+                    <div class="prog">
+                        <span style="width: 85%" data-progress="85%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>Php</h4>
+                    <div class="prog">
+                        <span style="width: 90%" data-progress="90%"></span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- End Skills -->
-<!--Start Quote-->
-<div class="quote">
-    <div class="container">
-        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore exercitationem explicabo facere fugiat
-            ipsam, nam natus possimus quas quis suscipit! Autem commodi cum fugiat iusto laudantium necessitatibus
-            numquam ratione sit.</q>
-        <spa>John Doe</spa>
-    </div>
-</div>
-<!--End Quote-->
-<!--Start Pricing-->
-<div class="pricing">
-    <div class="container">
-        <div class="main-heading">
-            <h2>Pricing</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A commodi corporis dolorem fugit iure maxime,
-                molestiae natus sapiente sit tenetur? Ab, iusto laborum nihil quibusdam repellat sunt tempora unde
-                vitae.</p>
+    <!-- End Skills -->
+    <!--Start Quote-->
+    <div class="quote">
+        <div class="container">
+            <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore exercitationem explicabo facere fugiat
+                ipsam, nam natus possimus quas quis suscipit! Autem commodi cum fugiat iusto laudantium necessitatibus
+                numquam ratione sit.</q>
+            <spa>John Doe</spa>
         </div>
-        <div class="plans">
-            <div class="plan">
-                <div class="head">
-                    <h3>Basic</h3>
-                    <span>19</span>
-                </div>
-                <ul>
-                    <li>Feature No 1</li>
-                    <li>Extra Feature</li>
-                    <li>Extra Feature No 2</li>
-                    <li>Feature</li>
-                </ul>
-                <div class="footer">
-                    <a href="#">Buy Now</a>
-                </div>
-            </div>
-            <div class="plan">
-                <div class="head">
-                    <h3>Basic</h3>
-                    <span>19</span>
-                </div>
-                <ul>
-                    <li>Feature No 1</li>
-                    <li>Extra Feature</li>
-                    <li>Extra Feature No 2</li>
-                    <li>Feature</li>
-                </ul>
-                <div class="foot">
-                    <a href="#">Buy Now</a>
-                </div>
-            </div>
-            <div class="plan">
-                <div class="head">
-                    <h3>Basic</h3>
-                    <span>19</span>
-                </div>
-                <ul>
-                    <li>Feature No 1</li>
-                    <li>Extra Feature</li>
-                    <li>Extra Feature No 2</li>
-                    <li>Feature</li>
-                </ul>
-                <div class="foot">
-                    <a href="#">Buy Now</a>
-                </div>
-            </div>
-            <div class="plan">
-                <div class="head">
-                    <h3>Basic</h3>
-                    <span>19</span>
-                </div>
-                <ul>
-                    <li>Feature No 1</li>
-                    <li>Extra Feature</li>
-                    <li>Extra Feature No 2</li>
-                    <li>Feature</li>
-                </ul>
-                <div class="foot">
-                    <a href="#">Buy Now</a>
-                </div>
-            </div>
-        </div>
-        <p class="contact-text">Contact Us if you have special request</p>
-        <a href="#" class="contact-link">Contact Us</a>
     </div>
-</div>
-<!--End Pricing-->
-<!--Start Subscribe-->
-<div class="subscribe">
-    <div class="container">
-        <form action="">
-            <i class="far fa-envelope fa-lg"></i>
-            <input type="email" name="mail" placeholder="YOUR EMAIL">
-            <input type="submit" value="Subscribe">
-        </form>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eaque eum expedita nihil officiis
-            quaerat qui quod vero. Amet atque fugiat, illo in laboriosam laborum laudantium magnam minima quos
-            veniam.</p>
-    </div>
-</div>
-<!--End Subscribe-->
-<!--Start Contact Us-->
-<div class="contact">
-    <div class="container">
-        <div class="main-heading">
-            <h2>Contact Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eum expedita inventore, laboriosam
-                laborum minus officia officiis optio porro quasi quidem reiciendis sequi suscipit temporibus, unde velit
-                veniam vitae voluptates.</p>
+    <!--End Quote-->
+    <!--Start Pricing-->
+    <div class="pricing">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Pricing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A commodi corporis dolorem fugit iure
+                    maxime,
+                    molestiae natus sapiente sit tenetur? Ab, iusto laborum nihil quibusdam repellat sunt tempora unde
+                    vitae.</p>
+            </div>
+            <div class="plans">
+                <div class="plan">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="footer">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <p class="contact-text">Contact Us if you have special request</p>
+            <a href="#" class="contact-link">Contact Us</a>
         </div>
-        <div class="content">
+    </div>
+    <!--End Pricing-->
+    <!--Start Subscribe-->
+    <div class="subscribe">
+        <div class="container">
             <form action="">
-                <input class="main-input" type="text" name="name" placeholder="YOUR NAME">
-                <input class="main-input" type="email" name="mail" placeholder="YOUR EMAIL">
-                <textarea class="main-input" name="message" placeholder="YOUR MESSAGE"></textarea>
-                <input type="submit" value="SEND MESSAGE">
+                <i class="far fa-envelope fa-lg"></i>
+                <input type="email" name="mail" placeholder="YOUR EMAIL">
+                <input type="submit" value="Subscribe">
             </form>
-            <div class="info">
-                <h4>Get In Touch</h4>
-                <span class="phone">+00966 505790454</span>
-                <span class="phone">+00966 505790454</span>
-                <h4>Where We Are</h4>
-                <address>
-                    Awesome Address <br>
-                    Saudi Arabia <br>
-                    Assir <br>
-                    Abha.
-                </address>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eaque eum expedita nihil officiis
+                quaerat qui quod vero. Amet atque fugiat, illo in laboriosam laborum laudantium magnam minima quos
+                veniam.</p>
+        </div>
+    </div>
+    <!--End Subscribe-->
+    <!--Start Contact Us-->
+    <div class="contact">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eum expedita inventore, laboriosam
+                    laborum minus officia officiis optio porro quasi quidem reiciendis sequi suscipit temporibus, unde
+                    velit
+                    veniam vitae voluptates.</p>
+            </div>
+            <div class="content">
+                <form action="">
+                    <input class="main-input" type="text" name="name" placeholder="YOUR NAME">
+                    <input class="main-input" type="email" name="mail" placeholder="YOUR EMAIL">
+                    <textarea class="main-input" name="message" placeholder="YOUR MESSAGE"></textarea>
+                    <input type="submit" value="SEND MESSAGE">
+                </form>
+                <div class="info">
+                    <h4>Get In Touch</h4>
+                    <span class="phone">+00966 505790454</span>
+                    <span class="phone">+00966 505790454</span>
+                    <h4>Where We Are</h4>
+                    <address>
+                        Awesome Address <br>
+                        Saudi Arabia <br>
+                        Assir <br>
+                        Abha.
+                    </address>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!--End Contact Us-->
-<!--Start Footer-->
-<div class="footer">
-    <div class="container">
-        <p>We Are Social</p>
-        <div class="social-icons">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-home"></i>
-            <i class="fab fa-linkedin"></i>
+    <!--End Contact Us-->
+    <!--Start Footer-->
+    <div class="footer">
+        <div class="container">
+            <p>We Are Social</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-home"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p class="copyright">&copy; 2023 <span> MO </span> All Right Reserved</p>
         </div>
-        <p class="copyright">&copy; 2023 <span> MO </span> All Right Reserved</p>
     </div>
-</div>
-<!--End Footer-->
+    <!--End Footer-->
+
+
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
